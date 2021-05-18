@@ -4,11 +4,13 @@ import {BrowserRouter, Route} from "react-router-dom";
 
 import App from './components/app';
 import Welcome from "./components/Welcome";
+import Signup from "./components/auth/Signup";
 
 ReactDOM.render(
   <BrowserRouter>
     <App>
       <Route path={"/"} exact component={Welcome} />
+      <Route path={"/Signup"} component={Signup} />
     </App>
   </BrowserRouter>,
   document.querySelector('#root')
