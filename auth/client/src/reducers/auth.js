@@ -3,6 +3,8 @@ const INITIAL_STATE = {
   errorMessage: ''
 }
 
-export default (state = INITIAL_STATE, action) => {
+const Auth = (state = INITIAL_STATE, action) => {
   return state;
 };
+
+export default Auth;
